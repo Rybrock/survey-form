@@ -47,6 +47,8 @@ div.name {
 .radio {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 label.gender-title {
     margin-bottom: 2em;
