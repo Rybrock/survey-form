@@ -1,0 +1,53 @@
+/* the * operator targets every element in the Dom */
+* {
+    font-family: 'Roboto', sans-serif;
+
+}
+body {
+    font-size: 15px;
+}
+.font-bold {
+    font-weight: 900;
+}
+
+.header {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 1.5rem;
+    color: #9b9b9b;
+}
+h3 {
+    font-size: 2em;
+}
+
+form {
+    background-color: #eee;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    padding: 1em;
+    border-radius: 1em;
+    -webkit-box-shadow: 14px 14px 5px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 14px 5px -8px rgba(0,0,0,0.75);
+    box-shadow: 14px 14px 5px -8px rgba(0,0,0,0.75);;
+}
+input {
+    width: 100%;
+    max-width: 40%;
+    outline: none;
+    border: none;
+    padding: 0.75em;
+}
+label {
+    margin-right: 0.75em;
+}
+div.name {
+    margin: 1em 0 1em 0;
+}
+.radio {
+    display: flex;
+    justify-content: center;
+}
+label.gender-title {
+    margin-bottom: 2em;
+}

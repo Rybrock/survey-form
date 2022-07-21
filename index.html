@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to the CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- link to the font from Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Wigan Coders Survey Form</title>
+</head>
+
+<body>
+    <header>
+        <section class="header">
+            <h1>What kind of coder are you?</h1>
+            <p>Fil out our survey form to see what kind of <span class="font-bold">Developer</span> you are!</p>
+        </section>
+    </header>
+
+    <section>
+        <div class="form-wrapper">
+            <form class="form">
+                <h3>Wigan Coders Survey Form</h3>
+                <div class="name">
+                    <h4 class="gender-title">What's your Name?</h4>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" placeholder="Please enter your first name" required>
+                </div>
+                <div class="name">
+                    <label for="firstName">Last Name:</label>
+                    <input type="text" placeholder="Please enter your last name" required>
+                </div>
+                <div class="gender">
+                    <h4 class="gender-title">What's your Gender?</h4>
+                    <div class="radio">
+                        <label for="male" name="male">Male
+                            <input type="radio" id="male" name="gender">
+                        </label>
+                        <label for="male" name="female">Female
+                            <input type="radio" id="female" name="gender">
+                        </label>
+                        <label for="unsure" name="unsure">Prefer not to say
+                            <input type="radio" id="unsure" name="gender">
+                        </label>
+                    </div>
+                   
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
