@@ -19,17 +19,17 @@
 <body>
     <header>
         <section class="header">
-            <h1>What kind of coder are you?</h1>
-            <p>Fil out our survey form to see what kind of <span class="font-bold">Developer</span> you are!</p>
+            <h1 class="">What kind of coder are you?</h1>
+            <p>Fill out our survey form to see what kind of <span class="font-bold">Developer</span> you are!</p>
         </section>
     </header>
 
     <section>
         <div class="form-wrapper">
             <form class="form">
-                <h3>Wigan Coders Survey Form</h3>
+                <h3 class="main-heading">Wigan Coders Survey Form</h3>
                 <div class="name">
-                    <h4 class="name-title">What's your Name?</h4>
+                    <h4 class="gender-title">What's your Name?</h4>
                     <label for="firstName">First Name:</label>
                     <input type="text" placeholder="Please enter your first name" required>
                 </div>
@@ -45,20 +45,20 @@
                 <h4 class="gender-title">What is your gender?</h4>
                 <div class="gender">
                     <label for="male">Male
-                        <input type="checkbox" name="gender" value="male">
+                        <input type="checkbox" name="gender" value="male" required>
                     </label>
                     <label for="female">
-                        Female<input type="checkbox" name="gender" value="female">
+                        Female<input type="checkbox" name="gender" value="female" required>
                     </label>
                     <label for="unknown">
-                        Unknown<input type="checkbox" name="gender" value="unknown">
+                        Unknown<input type="checkbox" name="gender" value="unknown" required>
                     </label>
                 </div>
                 <div>
                     <h4 class="gender-title">How many years have you been coding?</h4>
                     <div>
                         <label for="cars">Years coding:</label>
-                        <select name="cars" id="cars">
+                        <select name="cars" id="cars" required>
                             <option value="0">0</option>
                             <option value="1-3">1-3</option>
                             <option value="3-5">3-5</option>
@@ -68,7 +68,7 @@
                     <div>
                         <h4 class="gender-title">What is your favorite coding language?</h4>
                         <label for="cars">Proffered coding language:</label>
-                        <select name="cars" id="cars">
+                        <select name="cars" id="cars" required>
                             <option value="HTML">HTML</option>
                             <option value="CSS">CSS</option>
                             <option value="JavaScript">JavaScript</option>
@@ -78,8 +78,8 @@
                         </select>
                     </div>
                     <div class="text">
-                        <h4 for="comments">Any comments you would like to leave?</h4>
-                        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Your comments">
+                        <h4 for="comments" class="gender-title">Any comments you would like to leave?</h4>
+                        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Your comments" required>
                         </textarea>
                     </div>
                 </div>
