@@ -29,7 +29,7 @@
             <form class="form">
                 <h3>Wigan Coders Survey Form</h3>
                 <div class="name">
-                    <h4 class="gender-title">What's your Name?</h4>
+                    <h4 class="name-title">What's your Name?</h4>
                     <label for="firstName">First Name:</label>
                     <input type="text" placeholder="Please enter your first name" required>
                 </div>
@@ -37,23 +37,59 @@
                     <label for="firstName">Last Name:</label>
                     <input type="text" placeholder="Please enter your last name" required>
                 </div>
+                <div class="dob">
+                    <label for="dob">Date of Birth:
+                        <input class="dob" type="date" required>
+                    </label>
+                </div>
+                <h4 class="gender-title">What is your gender?</h4>
                 <div class="gender">
-                    <h4 class="gender-title">What's your Gender?</h4>
-                    <div class="radio">
-                        <label for="male" name="male">Male
-                            <input type="radio" id="male" name="gender">
-                        </label>
-                        <label for="male" name="female">Female
-                            <input type="radio" id="female" name="gender">
-                        </label>
-                        <label for="unsure" name="unsure">Prefer not to say
-                            <input type="radio" id="unsure" name="gender">
-                        </label>
+                    <label for="male">Male
+                        <input type="checkbox" name="gender" value="male">
+                    </label>
+                    <label for="female">
+                        Female<input type="checkbox" name="gender" value="female">
+                    </label>
+                    <label for="unknown">
+                        Unknown<input type="checkbox" name="gender" value="unknown">
+                    </label>
+                </div>
+                <div>
+                    <h4 class="gender-title">How many years have you been coding?</h4>
+                    <div>
+                        <label for="cars">Years coding:</label>
+                        <select name="cars" id="cars">
+                            <option value="0">0</option>
+                            <option value="1-3">1-3</option>
+                            <option value="3-5">3-5</option>
+                            <option value="5+">5+</option>
+                        </select>
                     </div>
+                    <div>
+                        <h4 class="gender-title">What is your favorite coding language?</h4>
+                        <label for="cars">Proffered coding language:</label>
+                        <select name="cars" id="cars">
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="All of the above">All of the above</option>
+                            <option value="None of the above">None of the above</option>
+
+                        </select>
+                    </div>
+                    <div class="text">
+                        <h4 for="comments">Any comments you would like to leave?</h4>
+                        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Your comments">
+                        </textarea>
+                    </div>
+                </div>
+                <div class="submit-button">
+                    <button>Sumbit</button>
                 </div>
             </form>
         </div>
     </section>
 
 </body>
+
 </html>
